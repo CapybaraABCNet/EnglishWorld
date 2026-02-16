@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Английский язык как язык международного общения</title>
+		<style>
+            body {
+                background-color: white;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px; 
+                margin: 0;
+            }
+            header {
+                background: linear-gradient(135deg, #00c0d1, #00ffc3);
+                padding: 20px;
+            }
+            .logo {
+                display:flex;
+                align-items:center;
+            }
+            .logo img {
+                border-radius: 50%;
+                width: 60px;
+                margin-right: 15px;
+            }
+            .text {
+                color: black;
+                text-align: center;
+                opacity: 0;
+                transform: translateY(-50px);
+                animation: appear 2s forwards;
+            } 
+            @keyframes appear {
+                from {
+                    opacity: 0;
+                    transform: translateY(-50px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            h1 {
+                font-size: 1.5rem;
+
+                margin: 0;
+            }
+            img {
+                width: 250px;
+                border-radius: 15px;
+            }
+            .container {
+                text-align: center;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                max-width: 400px;
+                margin: 20px auto;
+            }
+            a {
+                color: green;
+            }
+            footer {
+                display: flex;
+                justify-content: center;
+                padding: 5px;
+                background-color: skyblue;
+                color: white;
+            }
+            .l {
+            	list-style-type: upper-roman;
+            	list-style-position: inside;
+            	padding-left: 0;
+            }
+            .l li {
+            	margin-bottom: 8px;
+            }
+        </style>
+	</head>
+	<body>
+		<header>
+            <div class="logo">
+                <img src="https://i.pinimg.com/originals/b5/18/eb/b518ebf21976a7ab6b920b4d5d301a50.jpg?nii=t" class="logo">
+                <h1>Английский язык как язык международного общения</h1>
+            </div>
+        </header>
+        <div class="text">
+        	<div class="container">
+                <h2>План сайта</h2>
+                <a href="x.html">Главная страница</a><br>
+                <a href="bot.html">Бот который ответит на ваши вопросы</a><br>
+                <a href="i.html">Создатели сайта и проекта</a><br>
+            </div>
+            <div>
+            	<h2>Создатели сайта и проекта - Хуснутдинов Нияз и Степанов Адель</h2>
+            	<i>(это мы)</i>
+            	<p>Этот сайт создал я - Хуснутдинов Нияз, а за проект отвечаем мы - Степанов Адель и Хуснутдинов Нияз.</p>
+            	<h4>Цель нашего проекта</h4>
+            	<ul class="l">
+            		<li>Понять, как английский язык стал международным</li>
+            		<li>Узнать историю английского языка</li>
+            		<li>Просветить других людей в этой теме</li>
+            	</ul>
+            </div>
+        </div>
+        <br><br><br><br>
+        <footer>
+            <p>©Хуснутдинов Нияз и Степанов Адель. 9 лицей им. А.С.Пушкина. Зеленодольск 2026</p>
+        </footer>
+	</body>
+</html>
